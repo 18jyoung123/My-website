@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the ultimate gaming channel. Watch gaming tutorials, walkthroughs, and more!">
+    <title>Gaming Channel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* General body styling */
+        body {
+            background: linear-gradient(to right, #ff7f50, #1e90ff), url('images/background.jpg'); /* Gradient + background image */
+            background-size: cover;
+            background-position: center center;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+        }
+
+        /* Header styling */
+        header {
+            background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+            color: white;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+        header .logo img {
+            width: 50px;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero section */
+        .hero {
+            padding: 150px 20px 50px; /* More padding for better positioning */
+            background: rgba(0, 0, 0, 0.5); /* Dark background for text */
+        }
+
+        .hero h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        .cta-btn {
+            padding: 15px 30px;
+            background-color: #ff7f50;
+            color: white;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #1e90ff;
+        }
+
+        /* Video Gallery Section */
+        .video-gallery {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+        }
+
+        .video-item {
+            width: 30%;
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for videos */
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .video-item iframe {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .video-item h3 {
+            font-size: 1.2em;
+            margin-top: 15px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: rgba(0, 0, 0, 0.7); /* Dark footer */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Image Section */
+        .youtube-image {
+            margin: 50px 0;
+        }
+
+        .youtube-image img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Gaming Channel Logo">
+        </div>
+        <h1>Welcome to My Youtube Channel!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Latest Youtube Videos</h2>
+            <p>Join me for thrilling Discussions, Book Reviews, and live streams!</p>
+            <a href="https://www.youtube.com/@jordanyoung5763" target="_blank" class="cta-btn">Watch Now</a>
+        </div>
+    </section>
+
+    <section class="youtube-image">
+        <h2>Big Black Cadillac</h2>
+        <img src="images/escalade.jpg" alt="Big Black Cadillac">
+    </section>
+
+    <section class="video-gallery">
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/a0nWmYmmcHE" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Study Review Videos</h3>
+        </div>
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4G7KcAXWu70" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Controversial Topics</h3>
+        </div>
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bBtaHJ30jFM" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>And Book Reviews</h3>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Subscribe and Like Sponsor by the Big Black Cadillac</p>
+        <p>Follow me on <a href="https://www.instagram.com/direct/inbox/" target="_blank">Instagram</a>, <a href="https://www.twitter.com/YourChannel" target="_blank">Twitter</a>, and <a href="https://www.twitch.tv/YourChannel" target="_blank">Twitch</a>.</p>
+    </footer>
+</body>
+
+</html>
